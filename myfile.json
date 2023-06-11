@@ -1,0 +1,19 @@
+{
+    "Name": "Underwood",
+    "Mobile": 024 - 586 - 7726,
+    "city": "GreenVille",
+    "Course": [
+        "HTML",
+        "CSS",
+        "JS",
+        "JSON",
+        "AJAX",
+        "DS & Algo",
+        "TS",
+        "React"
+    ],
+    "Address": {
+        "Area": "Lakeside",
+        "Pin": 52564
+    }
+}
