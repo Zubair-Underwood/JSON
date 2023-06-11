@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var myJSON = {"first":"Zubair","last":"Underwood"};
+        var myJSONStringified = JSON.stringify(myJSON);
+        var myJSONParsed = JSON.parse(myJSONStringified);
+        myJSONParsed.first="John";
+        console.log(myJSONParsed);
+        var sendData = JSON.stringify(myJSONparsed);
+        console.log(sendData);
+    </script>
+</body>
+</html>
