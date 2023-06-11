@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Accessing JSON Object value using dot(".")Notation</h1>
+    <div id="myid"></div>
+    <script>
+      var obj = { "name": "Underwood", "mobile": 4242642299, "city": "Greenville" };
+      // var userName = obj.name;
+      // var contact = obj.mobile;
+      // var cor = obj.city;
+
+      //Accessing JSON object value using [] Notation
+      var userName=obj["name"];
+      var contact=obj["mobile"];
+      var cor=obj["city"];
+      
+
+      document.getElementById("myid").innerHTML =
+        "Name: " + userName + "<br>" + "Contact: " + contact + "<br>" + "City: " + cor;
+    </script>
+  </body>
+</html>
