@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Accessing JSON Object Keys and Values using for/in Loop</h1>
+        <div id="myid"></div>
+        <script>
+
+            var obj = {
+                "name": "Zubair Underwood",
+                "mobile":2545876772,
+                "city":"Lahore"
+            };
+
+            for(x in obj){
+                document.write(x + ": " + obj[x] + "<br>");
+            }
+        </script>
+    </body>
+</html>
