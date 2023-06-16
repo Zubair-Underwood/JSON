@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            var obj = {
+
+                "name": "Zubair Underwood",
+                "city": "Lahore",
+                "colors": [
+                    "red", "Orange", "yellow"
+                ],
+                "records": [
+                    {
+                        "name": "Sandeep",
+                        "city": "Kanpur"
+                    }, {
+                        "name": "Piyush",
+                        "city": "Kanpur"
+                    }, {
+                        "name": "Sunil",
+                        "city": "Kanpur"
+                    },
+                ]
+            }
+
+            function sendJSON(){
+
+                window.location = 'handleJSON.php?x=' + JSON.stringify();
+            }
+        </script>
+
+        <button onclick="sendJSON()">Send JSON Data</button>
+    </body>
+</html>

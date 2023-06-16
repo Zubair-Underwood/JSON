@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var obj = {
+            "colors":["orange", "red", "yellow", "grey"],
+            "records":[
+                { "name": "Zubi", "city":"Lahore"},
+                { "name": "Amit", "city":"Noida"},
+                { "name": "Sunil", "city":"kanpur"}
+            ]
+        }
+
+        // for( index in obj.colors){
+
+        //     document.write(obj.colors[index] + "<br>");
+        // }
+
+        // for(index = 0; index < obj.colors.length; index++){
+
+        //     document.write(obj.colors[index] + "<br>");
+        // }
+
+        // for(key in obj.records){
+        //     for(inner_key in obj.records[key]){
+
+        //         document.write(obj.records[key][inner_key] + "<br>");
+        //     }
+        // }
+
+
+        // document.write(obj.colors[0]);
+        document.write(obj.records[1]["name"]);
+
+    </script>
+</body>
+</html>
