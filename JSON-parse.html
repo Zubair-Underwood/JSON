@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var obj = {
+            "name" : "Sandeep Ganguly",
+            "city" : "kanpur",
+            "colors" : ["red", "orange", "yellow", "pink"]
+        };
+
+        var obj1 = '{ "name" : "Sandeep Ganguly" , "city" : "kanpur", "number": 20 }';
+        var jsonobj = JSON.parse(obj1);
+        document.write(jsonobj.name);
+    </script>
+</body>
+</html>
